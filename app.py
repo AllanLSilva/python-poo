@@ -10,11 +10,13 @@ prato_paozinho = Prato('Pãozinho', 2.0, 'O melhor pão da cidade')
 prato_paozinho.aplicar_desconto()
 sobremesa_bolo = Sobremesa('Bolo de cenoura', 8.0, '200g')
 sobremesa_bolo.aplicar_desconto()
+sobremesa_pudim = Sobremesa('Pudim', 5.0, '150g')
+sobremesa_pudim.aplicar_desconto()
 
 restaurante_praca.adicionar_no_cardapio(bebida_suco)
 restaurante_praca.adicionar_no_cardapio(prato_paozinho)
 restaurante_praca.adicionar_no_cardapio(sobremesa_bolo)
-
+restaurante_praca.adicionar_no_cardapio(sobremesa_pudim)
 
 def main():
     restaurante_praca.exibir_cardapio
